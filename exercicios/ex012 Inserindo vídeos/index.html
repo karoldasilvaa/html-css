@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este Vídeo está hospedado em meu próprio servidor</p>
+
+    <video width="400" poster="imagem/imagem-karol.png" controls loop>
+        <source src="midia/Meu-Video.m4v" type="video/mp4">
+        <source src="midia/Meu-Video.webm" type="video/webn">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+   <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5DOGrbXbpT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Latam</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/O8Q5QnPAAWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </body>
+</html>
+
+ <!-- Para vídeo também se usa a tag <source src="" type=""> --> 
+ 
+ <!-- Tem que colocar todo tipo de video porque se não for compativel vai abrir o outro, é bom começar do menor  -->
+
+ <!-- Colocar muitos vídeos dessa forma, fica mais caro pro cliente porque consome mais dados  -->
+
+ <!-- Se o video não pegar colocar: autoplay -->
+
+ <!-- Loop: é para quando acabar o vídeo, voltar a rodar o vídeo sozinho -->

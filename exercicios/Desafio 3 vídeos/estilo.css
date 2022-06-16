@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.iframe {
+    text-align: center;
+    padding: 20px;
+}
+.fundo-verde {
+   background-color: green;
+}
+.fundo-azul {
+    background-color: blue;
+}
+.fundo-amarelo {
+    background-color:yellow;
+}
+.texto-preto {
+    color: black;
+}
+.texto-amarelo {
+    color: yellow;
+}
+table {
+    margin: 0 auto;
+    padding: 20px;
+}
+.curso-completo {
+    text-align: center;
+    margin: 20px;
+}

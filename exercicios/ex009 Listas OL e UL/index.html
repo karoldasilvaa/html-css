@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            background-color: black;
+            color: red;
+            padding: 5px;
+            text-align: center;
+        }
+        h2{
+            background-color: pink;
+            color: blue;
+            padding: 5px;
+        }
+        h1,h2,img {
+            margin-bottom: 30px;
+            
+        }
+        img {
+            margin-top: 30px;
+            margin: 0 auto;          /*margin: 0 auto; e display: block; para centralizar a margem em qualquer aparelho*/
+            display: block;
+        }
+        dt{
+            color: blue;
+            margin: 10px;
+        }
+       li {
+           margin-bottom: 15px;
+       }
+       ul {
+            list-style: none
+        }
+
+        ul li:before {
+            content: '\2022';
+            margin: 0 5px;
+            color: blue; /* cor da bolinha */
+        }
+
+    </style>
+    <link rel="shortcut icon" href="eu fiz.ico" type="image/x-icon">
+    <title>Listas com CSS</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1">    <!--1 A a I i-->
+       <li>Acordar</li>
+       <li>Ligar para o João</li>
+       <li>tomar café</li>
+       <li>Tomar banho</li>
+       <li>Escovar os dentes</li> 
+       <li>Ir para a faculdade</li>
+       <li>Almoçar</li>
+       <li>Ir para o trabalho</li>
+       <li>Voltar pra casa</li>
+       <li>Jantar</li>
+       <li>Dormir</li>
+    </ol>
+    <img src="css200.png" alt="css">
+    <h2>Listas não Ordenadas</h2>
+    <ul type="disc">   <!--disc circle square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Açúcar</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <Li>Feijão</Li>  
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="i">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="i" start="5"> 
+            <li>PHP</li>
+            <li>Python</li> 
+            <li>JavaScript</li> 
+            <li>C#</li> 
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>Xbox</li>
+        <ul type="disc">
+            <li>Gears of War</li>  
+            <li>Resident Evil</li>
+            <li>Fifa</li>
+        </ul>
+        <li>Playstation</li>
+        <ul type="disc">
+            <li>Sackboy</li>
+        </ul>
+        <li>Nintendo</li>
+        <ul type="disc">
+            <li>Mario 3D</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+    <img src="Logo HTML.png" alt="html"> 
+</body>
+</html>
+     
+    <!-- Apartir do html5 o <\li> é opcional 
+    Pode só colocar <li>  -->
+       
+        <!-- Cód: HR: Colocar linha
+             BR: Pular linha -->
+
+    <!-- margin: Todos os lados
+    margin-top: Em cima
+    margin-right: Direita
+    margin-leftist: Esquerda
+    margin-bottom: Em baixo -->
+
+             
