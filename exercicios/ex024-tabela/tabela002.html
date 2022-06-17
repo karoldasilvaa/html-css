@@ -14,6 +14,8 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            /* Quando fixar o cabeçalho acrescente esse código  */
+            position: relative;   
         }
 
         td, th {
@@ -32,6 +34,12 @@
             background-color: gray;
             color: white;
         }
+          /* Código para fixar o cabeçalho da tabela */
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;;
+        }
 
         .num {
             text-align: right;
@@ -40,6 +48,10 @@
         .posicao {
             text-align: center;
             width: 80px;
+        }
+          /* Código para efeito zebrado só mudar o número que mudar o efeito ex:3n o efeito fica de três em três linhas etc... no lugar do 2n posso colocar odd que é impar ou even que é par */
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
     </style>
@@ -221,6 +233,15 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, necessitatibus molestias officiis officia commodi atque consectetur, nemo voluptatem totam cum ipsam in nulla! Eum, eius delectus! Veritatis repudiandae enim quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, atque voluptas molestiae, molestias accusantium cum, optio dolorum recusandae fuga qui sit temporibus est quod voluptates aperiam dignissimos voluptatem earum placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum pariatur eligendi nesciunt rerum vero. Voluptates cupiditate, quidem totam maxime perspiciatis eaque sapiente sed excepturi quisquam aliquid, cumque nihil enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at provident magnam, non libero enim atque accusamus doloremque aliquid! Recusandae rerum ipsa aut fugiat officiis? Et, suscipit laudantium? Beatae, commodi.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, necessitatibus molestias officiis officia commodi atque consectetur, nemo voluptatem totam cum ipsam in nulla! Eum, eius delectus! Veritatis repudiandae enim quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, atque voluptas molestiae, molestias accusantium cum, optio dolorum recusandae fuga qui sit temporibus est quod voluptates aperiam dignissimos voluptatem earum placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum pariatur eligendi nesciunt rerum vero. Voluptates cupiditate, quidem totam maxime perspiciatis eaque sapiente sed excepturi quisquam aliquid, cumque nihil enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at provident magnam, non libero enim atque accusamus doloremque aliquid! Recusandae rerum ipsa aut fugiat officiis? Et, suscipit laudantium? Beatae, commodi.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, necessitatibus molestias officiis officia commodi atque consectetur, nemo voluptatem totam cum ipsam in nulla! Eum, eius delectus! Veritatis repudiandae enim quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, atque voluptas molestiae, molestias accusantium cum, optio dolorum recusandae fuga qui sit temporibus est quod voluptates aperiam dignissimos voluptatem earum placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum pariatur eligendi nesciunt rerum vero. Voluptates cupiditate, quidem totam maxime perspiciatis eaque sapiente sed excepturi quisquam aliquid, cumque nihil enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at provident magnam, non libero enim atque accusamus doloremque aliquid! Recusandae rerum ipsa aut fugiat officiis? Et, suscipit laudantium? Beatae, commodi.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, necessitatibus molestias officiis officia commodi atque consectetur, nemo voluptatem totam cum ipsam in nulla! Eum, eius delectus! Veritatis repudiandae enim quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, atque voluptas molestiae, molestias accusantium cum, optio dolorum recusandae fuga qui sit temporibus est quod voluptates aperiam dignissimos voluptatem earum placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum pariatur eligendi nesciunt rerum vero. Voluptates cupiditate, quidem totam maxime perspiciatis eaque sapiente sed excepturi quisquam aliquid, cumque nihil enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at provident magnam, non libero enim atque accusamus doloremque aliquid! Recusandae rerum ipsa aut fugiat officiis? Et, suscipit laudantium? Beatae, commodi.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, necessitatibus molestias officiis officia commodi atque consectetur, nemo voluptatem totam cum ipsam in nulla! Eum, eius delectus! Veritatis repudiandae enim quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, atque voluptas molestiae, molestias accusantium cum, optio dolorum recusandae fuga qui sit temporibus est quod voluptates aperiam dignissimos voluptatem earum placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum pariatur eligendi nesciunt rerum vero. Voluptates cupiditate, quidem totam maxime perspiciatis eaque sapiente sed excepturi quisquam aliquid, cumque nihil enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus at provident magnam, non libero enim atque accusamus doloremque aliquid! Recusandae rerum ipsa aut fugiat officiis? Et, suscipit laudantium? Beatae, commodi.</p>
         
 </body>
 </html>
