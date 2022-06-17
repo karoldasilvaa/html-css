@@ -25,6 +25,10 @@
             border: 1px solid gray;
             padding: 10px;
         }
+
+        .num {
+            text-align: center;
+        }
         
     </style>
 </head>
@@ -35,15 +39,18 @@
             Filmes favoritos
         </caption>
         <thead>
+             <!-- O código scope se coloca só no TH -->
             <tr>
-                <th>Grupos</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th> 
+             <!-- Scope colgroup: é para um grupo de colunas que pertence a mesma coluna como no filme que tem três colunas para filmes -->
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th rowspan="3">Mulheres</th>
+            <tr>   
+                <!-- Scope rowgroup: é para um grupo de linhas como em mulheres que tem três linhas para mulheres -->
+                <th rowspan="3" scope="rowgroup" >Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -62,7 +69,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup" >Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
@@ -81,6 +88,12 @@
                <td>Toy Story</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total de Pessoas</th>
+                <td class="num">6</td>
+            </tr>
+        </tfoot>
    </table>
 </body>
 </html>
